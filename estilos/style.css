@@ -8,7 +8,7 @@
 }
 
 body, html {
-   background-color: rebeccapurple;
+   background-color:  #49a09d;
    height: 100vh;
    width: 100vh;
 }
@@ -29,13 +29,14 @@ section#login {
     width: 200px;
     height: 500px;
     border-radius: 20px;
-    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.455);
+    box-shadow:  0px 0px 10px  rgb(6, 170, 225);
 
     transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
-    background: purple url(..//estilos/pexels-photo-34455810.avif);
+    background: rgb(6, 170, 225) url(../estilos/predio\ foda.avif);
     background-repeat: no-repeat;
     height: 200px;
     background-position: left bottom;
